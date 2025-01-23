@@ -28,13 +28,13 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // | GRAVE |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | PSCRN |
-// | SHFT  |     | UP  |     |     |     |   |  `  |  +  |     |     | PG_UP | ENT |
-// | CTRL  | LFT | DWN | RGT |     |     |   |  ´  |  ç  |  <  |  >  | PG_DN |     |
+// | SHFT  |     | UP  |     |     |     |   |  '  |  =  |  `  |  +  | PG_UP | ENT |
+// | CTRL  | LFT | DWN | RGT |     |     |   |  <  |  >  |  ´  |  ç  | PG_DN |     |
 //                     | GUI |     | SPC |   | SPC |     | ALT |
                         bindings = <
-   &kp GRAVE  &kp N1    &kp N2    &kp N3     &kp N4  &kp N5    &kp N6     &kp N7   &kp N8  &kp N9  &kp N0  &kp PSCRN
-   &kp LSHFT  &trans    &kp UP    &trans     &trans  &trans    &kp LBKT   &kp RBKT  &trans  &trans  &kp PG_UP  &kp RET
-   &kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans    &kp APOS   &kp BACKSLASH  &kp NON_US_BSLH  &kp PIPE2  &kp PG_DN  &trans
+   &kp GRAVE  &kp N1    &kp N2    &kp N3     &kp N4  &kp N5    &kp N6           &kp N7     &kp N8    &kp N9         &kp N0  &kp PSCRN
+   &kp LSHFT  &trans    &kp UP    &trans     &trans  &trans    &kp MINUS        &kp EQUAL  &kp LBKT  &kp RBKT       &kp PG_UP  &kp RET
+   &kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans    &kp NON_US_BSLH  &kp PIPE2  &kp APOS  &kp BACKSLASH  &kp PG_DN  &trans
                               &kp LGUI   &trans   &kp SPACE    &kp SPACE  &trans   &kp RALT
                         >;
                 };
